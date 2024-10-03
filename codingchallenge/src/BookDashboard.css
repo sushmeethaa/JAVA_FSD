@@ -1,0 +1,68 @@
+/* Center the entire container */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh; /* Full height of the screen */
+    padding: 20px;
+    background-color: #f9f9f9; /* Light background color */
+  }
+  
+  /* Style the heading */
+  .container h1 {
+    font-size: 2em;
+    color: #333;
+    margin-bottom: 30px; /* Add space below the heading */
+    text-align: center;
+  }
+  
+  /* Add space between the buttons */
+  .container button {
+    margin: 10px;
+    font-size: 1.1em; /* Increase font size for better readability */
+  }
+  
+  /* Add padding and border radius for a cleaner look */
+  button.primary {
+    padding: 10px 20px;
+    border-radius: 5px;
+  }
+  
+  /* Style the logout button */
+  button.logout {
+    background-color: #ff4c4c; /* Red color for logout */
+    color: white;
+    margin-top: 20px;
+    font-size: 1em;
+    padding: 10px 15px;
+    border-radius: 5px;
+  }
+  
+  button.logout:hover {
+    background-color: #ff1a1a; /* Darker red on hover */
+    cursor: pointer;
+  }
+  
+  /* Style for modals and content alignment */
+  .ui.modal {
+    width: 50%; /* Set modal width */
+    max-width: 600px; /* Max width */
+    padding: 20px;
+  }
+  
+  .ui.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+  }
+  
+  .ui.form .field {
+    width: 100%; /* Full width fields */
+  }
+  
+  .ui.form .button {
+    width: fit-content; /* Adjust button width */
+  }
+  
