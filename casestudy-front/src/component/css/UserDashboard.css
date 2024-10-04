@@ -1,0 +1,56 @@
+.user-dashboard-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #f9f9f9; /* Light background color */
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    max-width: 600px;
+    margin: 20px auto; /* Center the dashboard */
+}
+
+.user-dashboard-container h1 {
+    font-size: 2em;
+    color: #333; /* Darker text color for better readability */
+}
+
+.user-dashboard-container h2 {
+    font-size: 1.5em;
+    margin: 20px 0; /* Space above and below headings */
+    color: #666; /* Slightly lighter color */
+}
+
+.user-dashboard-container ul {
+    list-style-type: none; /* Remove default list styles */
+    padding: 0;
+    margin: 0;
+    width: 100%; /* Full width for the list */
+}
+
+.user-dashboard-container li {
+    background-color: #fff; /* White background for list items */
+    padding: 15px;
+    margin: 5px 0; /* Space between list items */
+    border-radius: 5px;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1); /* Slight shadow for depth */
+}
+
+.user-dashboard-container button {
+    background-color: #007bff; /* Bootstrap primary color */
+    color: white; /* White text */
+    border: none;
+    border-radius: 5px; /* Rounded corners */
+    padding: 10px 15px;
+    cursor: pointer; /* Pointer cursor on hover */
+    font-size: 1em;
+    transition: background-color 0.3s; /* Smooth background transition */
+}
+
+.user-dashboard-container button:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+}
+
+.user-dashboard-container button:focus {
+    outline: none; /* Remove outline on focus */
+}

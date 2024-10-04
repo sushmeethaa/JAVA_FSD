@@ -1,0 +1,25 @@
+/* Contact.css */
+.contact-container {
+    padding: 20px;
+    background-color: #f0f8ff; /* Light background for consistency */
+    text-align: left;
+}
+
+h1 {
+    color: #2185d0; /* Hospital primary color */
+    margin-bottom: 20px;
+}
+
+h2 {
+    margin-top: 20px;
+    color: #2185d0; /* Hospital primary color */
+}
+
+a {
+    color: #2185d0; /* Primary color for links */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline; /* Underline on hover for links */
+}
