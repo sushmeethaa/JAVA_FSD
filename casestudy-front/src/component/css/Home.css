@@ -1,0 +1,60 @@
+/* Home.css */
+.home-container {
+    text-align: center;
+    padding: 20px;
+    background-color: #f4f4f4; /* Light background for contrast */
+}
+
+.hospital-image {
+    width: 100%; /* Make the image responsive */
+    max-width: 600px; /* Set a max-width for larger screens */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 10px; /* Optional: Add rounded corners */
+    margin-bottom: 20px; /* Space below the image */
+}
+
+.services-list {
+    list-style-type: none; /* Remove bullet points */
+    padding: 0; /* Remove padding */
+}
+
+.services-list li {
+    background: #2185d0; /* Button-like background for service items */
+    color: white; /* White text */
+    padding: 10px; /* Padding around the text */
+    margin: 5px 0; /* Space between items */
+    border-radius: 5px; /* Rounded corners */
+}
+.home-container {
+    margin: 20px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  }
+  
+  .home-container h1 {
+    color: #2185d0;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .home-container p {
+    font-size: 1.2em;
+    color: #333;
+  }
+  .additional-content {
+    margin: 20px auto; /* Center the additional content */
+    background-color: #f9f9f9; /* Background color for the content */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Shadow effect */
+}
+
+.additional-content h2 {
+    color: #2573c2; /* Heading color */
+    margin-bottom: 10px; /* Space below headings */
+}
+
+.additional-content p {
+    margin-bottom: 15px; /* Space between paragraphs */
+    line-height: 1.5; /* Improved readability */
+}

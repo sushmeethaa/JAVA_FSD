@@ -1,0 +1,82 @@
+/* Container styling */
+.container {
+    padding: 20px;
+  }
+  
+  /* Header styling */
+  .card.h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #555; /* Blue color for the header */
+    font-size: 2em; /* Increase font size */
+    font-weight: bold; /* Make header text bold */
+    text-transform: uppercase; /* Transform header text to uppercase */
+    letter-spacing: 1.5px; /* Add spacing between letters */
+    border-bottom: 2px solid #2185d0; /* Add a bottom border */
+    display: inline-block; /* Ensure border doesn't extend full width */
+    padding-bottom: 10px; /* Space between text and border */
+  }
+  
+  /* Card group styling */
+  .ui.card {
+    margin: 10px !important; /* Override margin for the card */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+    transition: transform 0.2s ease-in-out; /* Smooth transform effect */
+  }
+  
+  /* Card hover effect */
+  .ui.card:hover {
+    transform: scale(1.05); /* Slightly enlarge card on hover */
+  }
+  
+  /* Card content styling */
+  .ui.card .content {
+    padding: 15px !important; /* Adjust padding */
+  }
+  
+  /* Card header styling */
+  .ui.card .header {
+    font-size: 1.5em !important;
+    color: #242527 !important; /* Blue color for card headers */
+  }
+  
+  /* Card meta styling */
+  .ui.card .meta {
+    color: #555 !important; /* Gray color for meta information */
+  }
+  
+  /* Card description styling */
+  .ui.card .description {
+    font-size: 1em !important;
+    line-height: 1.5 !important;
+  }
+  
+  /* Card group spacing */
+  .ui.card-group {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  /* Button styling */
+  button {
+    background-color: #2185d0 !important; /* Button color */
+    color: white !important;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Button hover effect */
+  button:hover {
+    background-color: #0056b3 !important; /* Darker blue on hover */
+  }
+  
+  /* Additional styling for a centered close button */
+  button.close-button {
+    display: block;
+    margin: 20px auto 0 auto; /* Center align button */
+  }
+  
